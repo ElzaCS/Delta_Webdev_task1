@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nutrition Calculator</title>
+	<link rel="stylesheet" href="style_tr.css">
+</head>
+<body>
+
+  <div class="heading">
+    <h1>Find your daily requirement</h1>
+  </div>
+
+  <p></p>
+
+<div>
+    <table>
+      <tr>
+        <td><center><a href="glos.html">Glossary</a></center></td>
+        <td><center>Calculate your BMR</center></td>
+        <td><center><a href="dietControl.html">Tracker</a></center></td>
+        <td><center><a href="sugg.html">Suggestions</a></center></td>
+      </tr>
+    </table>
+  </div>
+
+<p></p>
+
+<aside>
+    <h2>Remember</h2>
+    <p>The amount of energy you need each day to maintain your weight depends on your age, gender, height, weight and physical activity level.</p>
+    <p>It's important to remember that the Daily Intake tracker is just that - a tracker. The DI values should be used as a guide to help you make informed choices about the foods you eat.</p>
+    <p>If you are unsure of how to interpret this information, consult a dietitian or your GP for your own personalised advice and guidance.</p>
+  </aside>
+
+  <p></p>
+
+    <section>
+      <label for="age">Enter your age:</label>
+      <input id="age" type="text" placeholder="" required>
+    <p></p>
+
+      <label for="g">Gender: </label>
+      <label for="m">Male</label><input id="m" type="radio" name="g" value="m">
+      <label for="f">Female</label><input id="f" type="radio" name="g" value="f">
+
+<p></p><p></p>
+ 
+      <label for="height">Enter your height:</label>
+      <input id="height" type="text" placeholder="" required><br>
+    
+      <label for="Hus">US(inches)</label><input id="Hus" type="radio" name="Hukus" value="Hus">
+      <label for="Huk">metric(cm)</label><input id="Hmet" type="radio" name="Hukus" value="Hmet" checked>
+ 
+<p></p>
+
+      <label for="weight">Enter your weight:</label>
+      <input id="weight" type="text" placeholder="" required><br>
+      <label for="Wus">US(pounds)</label><input id="Wus" type="radio" name="Wukus" value="Wus">
+      <label for="Wuk">metric(kg)</label><input id="Wmet" type="radio" name="Wukus" value="Wmet" checked>
+ 
+    <p></p>
+
+    <button class="cal">Calculate</button>
+    <br><p class="story"></p>
+</section>
+  
+
+
+    <script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
