@@ -1,0 +1,68 @@
+html {
+  background-color: #e6f5ff;
+  font-size: 20px;
+}
+
+div {
+  background: #008ae6;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+h1 {
+	text-shadow: 1px 1px black;
+  background-color: #008ae6;
+  
+}
+table {
+	width: 100%;
+	background: #f2f2f2;
+}
+ul {
+  background: #f2f2f2;
+  padding: 10px;
+  width: 60%;
+  border: 1px solid black;
+}
+
+li {
+  margin-left: 20px;
+}
+
+aside {
+	position: absolute;
+	right: 10px;
+	width: 25%;
+	padding: 5px;
+  	border: 1px solid black;
+  	background: #66ccff;
+}
+
+article {
+	background: #f2f2f2;
+  padding: 10px;
+  border: 1px solid black;
+  width: 70%;
+}
+
+input {
+  width: 100px;
+}
+
+section {
+  padding: 15px;
+  width: 60%;
+  text-align: center;
+  border: 1px solid black;
+  position: absolute;
+  left: 80px; 
+}
+
+span {
+  background-color: #008ae6;
+}
+
+footer {
+  border: 1px solid black;
+  background: #66ccff;
+}
