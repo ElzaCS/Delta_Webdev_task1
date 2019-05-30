@@ -45,17 +45,26 @@ article {
   width: 70%;
 }
 
-input {
+input.food {
+  width: 400px;
+}
+
+input.carb {
   width: 100px;
 }
+
+input.food {
+  width: 200px;
+}
+
 
 section {
   padding: 15px;
   width: 60%;
   text-align: center;
-  border: 1px solid black;
   position: absolute;
   left: 80px; 
+
 }
 
 span {
@@ -65,4 +74,18 @@ span {
 footer {
   border: 1px solid black;
   background: #66ccff;
+}
+
+p.moral {
+  background: #ccccff;
+}
+
+p.alert1 {
+  color: red;
+}
+p.alert2 {
+  color: red;
+}
+p.alert3 {
+  color: red;
 }
