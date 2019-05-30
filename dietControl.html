@@ -29,16 +29,31 @@
 		<p>If you are unsure of how to interpret this information, consult a dietitian or your GP for your own personalised advice and guidance.</p>
 	</aside>
 
-	<p>Keeping a track of your daily intake can help you make important decisions regarding your meals.</p>
-	<p>To find out how many calories you need per day, calculate your BMR.</p>
+
 	<article>
       <label for="food">Food intake for today:</label>
       <input id="food" type="text" placeholder="">
-      <label for="cal">Calories:</label>
-      <input id="cal" type="text" placeholder="">
-    <button class="add">Add to list:</button>
+      <br><label for="carb">Carbs:</label>
+      <input id="carb" type="number" placeholder="">
+      <label for="fat">Fats:</label>
+      <input id="fat" type="number" placeholder="">
+      <label for="pro">Proteins:</label>
+      <input id="pro" type="number" placeholder="">
+
+    <button class="add" style="position: absolute; left: 700px;">Add to list</button>
+    <button class="sum" style="position: absolute; right: 450px;">Diet Summary</button>
 	</article>
-	<p class="totcal"></p>
+
+	<section style="position: relative; top: 0px;">
+	<p class="moral">Keeping a track of your daily intake can help you make important decisions regarding your meals.</p>
+	<p class="moral2">To find out how many calories you need per day, calculate your BMR.</p>
+	<p class="moral4"></p><p class="alert1"></p>
+	<p class="moral3"></p><p class="alert2"></p>
+	</section>
+	<label for="gBmr">Your BMR:</label>
+      <input id="gBmr" type="number" placeholder="" width="100px">
+    <p class="alert3"></p>
+	<p class="totcal">Total Calories=0</p>
 	<script src="script.js"></script>
 </body>
 </html>
